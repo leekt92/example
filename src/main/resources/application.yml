@@ -26,3 +26,6 @@ logging:
     springframework:
       data:
         repository: DEBUG
+
+#server:
+ # port: 9082
