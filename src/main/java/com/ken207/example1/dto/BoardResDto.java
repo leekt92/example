@@ -11,6 +11,7 @@ import java.time.LocalDateTime;
 @Builder
 public class BoardResDto {
 
+    private Long id;
     private  String author;
     private  String subject;
     private  String content;
@@ -18,6 +19,5 @@ public class BoardResDto {
     private  LocalDateTime modifiedDate;
     private  int hitCount;
     private  boolean delYn;
-    private  String password;
-
+    private  String passWord;
 }
